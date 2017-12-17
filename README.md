@@ -18,10 +18,13 @@ This is an example of examples on how to use [single-spa](https://github.com/joe
 A [demo is live](http://single-spa.surge.sh) on surge.sh.
 
 ## How to get the examples running locally
-```
+```bash
 git clone git@github.com:CanopyTax/single-spa-examples.git
 cd single-spa-examples
-npm install
-npm start
+
+# Install yarn at https://yarnpkg.com/lang/en/docs/install/
+yarn
+yarn build
+yarn start
 open http://localhost:8080
 ```
