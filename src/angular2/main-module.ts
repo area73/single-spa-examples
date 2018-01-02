@@ -6,13 +6,13 @@ import {enableProdMode} from '@angular/core';
 try {
     enableProdMode();
 } catch (err) {
-    console.info('Prod Mode already enabled');
+    console.info('EnableProdMode already set')
 }
 
 @NgModule({
-  imports: [BrowserModule],
-  declarations: [ExampleNg2App],
-  bootstrap: [ExampleNg2App]
+    imports: [BrowserModule],
+    declarations: [ExampleNg2App],
+    bootstrap: [ExampleNg2App]
 })
 export default class MainModule {
 }
