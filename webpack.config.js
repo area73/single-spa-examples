@@ -7,7 +7,7 @@ infernoBabelConfig.plugins.push('inferno');
 
 const preactBabelConfig = getBabelConfig();
 preactBabelConfig.presets.splice(0, 1);
-preactBabelConfig.plugins.push(['transform-react-jsx', {pragma: 'h'}])
+preactBabelConfig.plugins.push(['transform-react-jsx', {pragma: 'h'}]);
 
 module.exports = {
   entry: __dirname + '/src/single-spa-examples.js',

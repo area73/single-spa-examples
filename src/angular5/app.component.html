@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div  [style.border]="border">
+    <div class="c-app">
+        <h1>Welcome to Angular 5</h1>
+        <ul class="c-app__menu">
+            <li class="c-app__menu__item" routerLink="angular5/tab-1"><a>Tab 1</a></li>
+            <li class="c-app__menu__item" routerLink="angular5/tab-2"><a>Tab 2</a></li>
+        </ul>
+        <hr>
+    </div>
+    <main [@fadeAnimation]="getRouterOutletState(o)">
+        <router-outlet #o="outlet"></router-outlet>
+    </main>
+</div>

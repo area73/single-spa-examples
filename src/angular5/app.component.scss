@@ -1,0 +1,49 @@
+.c-app {
+
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__menu {
+    display: inline-block;
+    padding: 0;
+
+    &__item {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 1px solid #ccc;
+      a , &:link {
+          text-decoration: none;
+          color: #666;
+          font-weight: bold;
+      }
+      &:focus {
+        outline: none;
+      }
+      &:hover {
+        cursor: pointer;
+        background-color: #af5b5e;
+        animation: fadeIt 0.5s ease-in;
+        a {
+          color:#fff;
+          animation: fadeIt2 0.5s ease-in;
+        }
+      }
+      }
+    }
+
+  @keyframes fadeIt {
+    0%   { background-color: #FFFFFF; }
+    100%  { background-color: #af5b5e; }
+  }
+
+  @keyframes fadeIt2 {
+    0%   { color: #ccc; }
+    100%  { color: #FFFFFF; }
+  }
+
+}

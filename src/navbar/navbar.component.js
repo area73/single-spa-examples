@@ -78,6 +78,11 @@ function menuItems() {
         </a>
       </li>
       <li>
+        <a href="#/angular5">
+          Angular 5
+        </a>
+      </li>
+      <li>
         <a href="#/vue">
           Vue.js
         </a>
